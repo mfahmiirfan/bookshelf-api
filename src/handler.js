@@ -64,7 +64,6 @@ const addBookHandler = (request, h) => {
 
     const response = h.response({
       status: 'success',
-      message: 'Buku berhasil ditambahkan',
       data: {
         books: filteredBooks.map(book => {
           return {
